@@ -1,0 +1,73 @@
+# Swaylock Config - Beautiful lock screen dengan latar belakang hitam
+
+# Daemonize untuk menjalankan swaylock sebagai proses background
+daemonize=true
+
+# Menampilkan percobaan login yang gagal
+show-failed-attempts=true
+
+# Menampilkan jam
+clock=true
+
+# Menangkap screenshot jika diperlukan
+screenshot=true
+
+# Efek blur dan vignette untuk latar belakang
+effect-blur=9x5  # Efek blur dengan radius yang ringan
+effect-vignette=0.5:0.5  # Efek vignette untuk penyesuaian pencahayaan
+
+# Warna latar belakang hitam
+color=00000000  # Latar belakang hitam
+
+# Pengaturan font dan teks
+font="Inter"
+text-color=e0def4  # Warna teks putih cerah
+text-caps-lock-color=""  # Hapus warna teks Caps Lock
+
+# Pengaturan indikator kunci
+indicator=true
+indicator-radius=200
+indicator-thickness=20
+line-color=1f1d2e  # Warna garis indikator
+ring-color=191724  # Warna cincin indikator
+inside-color=1f1d2e  # Warna di dalam indikator
+
+# Pengaturan warna highlight untuk tombol
+key-hl-color=eb6f92  # Warna highlight tombol
+separator-color=00000000  # Warna pemisah transparan
+
+# Warna saat status verifikasi benar
+line-ver-color=eb6f92  # Warna garis saat verifikasi berhasil
+ring-ver-color=eb6f92  # Warna cincin saat verifikasi berhasil
+inside-ver-color=1f1d2e  # Warna di dalam cincin saat verifikasi berhasil
+text-ver-color=e0def4  # Warna teks saat verifikasi berhasil
+
+# Warna saat status verifikasi salah
+ring-wrong-color=31748f  # Warna cincin saat verifikasi salah
+text-wrong-color=31748f  # Warna teks saat verifikasi salah
+inside-wrong-color=1f1d2e  # Warna dalam cincin saat verifikasi salah
+
+# Warna saat status clear (tidak ada entri)
+inside-clear-color=1f1d2e  # Warna dalam cincin saat clear
+text-clear-color=e0def4  # Warna teks saat clear
+ring-clear-color=9ccfd8  # Warna cincin saat clear
+line-clear-color=1f1d2e  # Warna garis saat clear
+
+# Warna garis saat status salah
+line-wrong-color=1f1d2e  # Warna garis saat verifikasi salah
+
+# Pengaturan untuk grace period tanpa mouse atau touch
+grace=2
+grace-no-mouse=true
+grace-no-touch=true
+
+# Format tanggal dan waktu
+datestr=%a, %B %e  # Format tanggal
+timestr=%I:%M %p  # Format waktu (12 jam)
+
+# Efek fade-in untuk transisi layar kunci
+fade-in=0.2
+
+# Abaikan password kosong (password tidak perlu dimasukkan)
+ignore-empty-password=true
+
